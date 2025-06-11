@@ -22,8 +22,9 @@ if [ -x /usr/bin/dircolors ]; then
   alias egrep="egrep --color=auto"
 fi
 
-# Home dir alias
-alias ~="cd ~"
+# Directory changing aliases
+alias "~"="cd ~"
+alias ".."="cd .."
 
 # List aliases
 alias ll="ls -alF"
