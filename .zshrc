@@ -22,6 +22,9 @@ if [ -x /usr/bin/dircolors ]; then
   alias egrep="egrep --color=auto"
 fi
 
+# Clear screen alias
+alias cls="clear"
+
 # Directory changing aliases
 alias "~"="cd ~"
 alias ".."="cd .."
