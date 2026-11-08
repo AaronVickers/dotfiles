@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 rsync --archive --human-readable \
   --verbose --no-perms \
