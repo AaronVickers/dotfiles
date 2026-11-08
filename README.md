@@ -8,15 +8,14 @@ My collection of dotfiles, plugins, and other configuration files.
 
 ## Installation
 
-1. Clone, and navigate to the repository:
+1. Clone the repository:
 
    ```
-   git clone --recurse-submodules https://github.com/AaronVickers/dotfiles.git
-   cd dotfiles
+   git clone https://github.com/AaronVickers/dotfiles.git
    ```
 
 2. Run the bootstrap script:
 
    ```
-   source bootstrap.sh
+   bash bootstrap.sh
    ```
