@@ -56,9 +56,3 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Syntax highlighting plugin
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Autocomplete plugin
-source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-bindkey -M menuselect  '^[[D' .backward-char  '^[OD' .backward-char
-bindkey -M menuselect  '^[[C'  .forward-char  '^[OC'  .forward-char
-bindkey -M menuselect '^M' .accept-line
