@@ -9,7 +9,8 @@ fi
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-setopt INC_APPEND_HISTORY HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE
+HISTORY_IGNORE='(#i)(*token=*|*key=*|*key_id=*|*authorization:*|*curl*[ ]-u*|*curl*[ ]--user[ =]*)'
+setopt EXTENDED_GLOB INC_APPEND_HISTORY HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE
 
 # Colourised commands
 if [ -x /usr/bin/dircolors ]; then
