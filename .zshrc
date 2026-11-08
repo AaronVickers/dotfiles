@@ -12,6 +12,10 @@ SAVEHIST=10000
 HISTORY_IGNORE='(#i)(*token=*|*key=*|*key_id=*|*authorization:*|*curl*[ ]-u*|*curl*[ ]--user[ =]*)'
 setopt EXTENDED_GLOB INC_APPEND_HISTORY HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE
 
+# Bash-like navigation
+autoload -U select-word-style
+select-word-style bash
+
 # Colourised commands
 if [ -x /usr/bin/dircolors ]; then
   test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
