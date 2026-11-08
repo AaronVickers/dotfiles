@@ -4,6 +4,8 @@ My collection of dotfiles, plugins, and other configuration files.
 
 ## Prerequisites
 
+- git
+- rsync
 - zsh
 
 ## Installation
