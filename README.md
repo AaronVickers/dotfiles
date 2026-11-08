@@ -19,5 +19,5 @@ My collection of dotfiles, plugins, and other configuration files.
 2. Run the bootstrap script:
 
    ```
-   bash bootstrap.sh
+   bash dotfiles/bootstrap.sh
    ```
